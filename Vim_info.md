@@ -36,6 +36,22 @@
 - `N` ::: backward next; previous next
 <!--SR:!2000-01-01,1,250!2025-01-01,2,242-->
 - `w` ::: move to begin of next word
+`Ctrl + B` ::: page up, moving Backward
+<!--SR:!2024-12-30,1,210!2025-01-01,3,210-->
+`gt` ::: To switch between tabs you can use
+<!--SR:!2025-01-07,9,250!2024-12-31,2,242-->
+`Ctrl+ ]` ::: Jump to a subject
+`Ctrl + T / O` ::: Jump back to previous position
+`#x` ::: Delete \# character
+<!--SR:!2024-12-30,1,225!2000-01-01,1,250-->
+`#dw` ::: Delete \# word
+`$`  ::: move to the end of line, INCLUDING the last character.
+`d$`  ::: delete to the end of the line
+`de /w` ::: delete word
+`Ctrl + R` ::: Redo 
+`Ctrl + r` ::: Redo 
+`N` ::: backward next; previous next
+`w` ::: move to begin of next word
 <!--SR:!2024-12-31,2,245!2025-01-03,5,246-->
 - `b` ::: begin of previours word, word begin
 -  `e` ::: to the end of the current word, word end, INCLUDING the last character.
@@ -66,6 +82,20 @@
 - `:register<Enter>` ::: Show yank register
 <!--SR:!2024-12-31,1,222!2000-01-01,1,250-->
 - `:cd mydirectory` ::: Set working / current directory in Vim
+**Command**|**Usage**
+----------|------------
+`:ter` ::: Open a terminal / shell inside VIM
+<!--SR:!2024-12-31,2,242!2000-01-01,1,250-->
+`:vertical botright term` ::: Open a terminal vertically at the right side of the window
+`:tabnew` ::: You can open a new tab with the command
+`:tabnew [filename]` ::: You can open a new tab with the command
+`:q<Enter>` ::: Close this window
+`:qa!<Enter>` ::: Get out of Vim
+<!--SR:!2024-12-31,2,226!2024-12-31,2,245-->
+`:reg<Enter>` ::: Show yank register
+<!--SR:!2000-01-01,1,250!2024-12-30,1,222-->
+`:register<Enter>` ::: Show yank register
+`:cd mydirectory` ::: Set working / current directory in Vim
 
 
 ## Motion
