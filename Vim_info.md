@@ -13,7 +13,7 @@
 `Ctrl + B` ::: page up, moving Backward
 <!--SR:!2024-12-30,1,210!2025-01-01,3,210-->
 `gt` ::: To switch between tabs you can use
-<!--SR:!2025-01-07,9,250!2000-01-01,1,250-->
+<!--SR:!2025-01-07,9,250!2024-12-31,2,242-->
 `Ctrl+ ]` ::: Jump to a subject
 `Ctrl + T / O` ::: Jump back to previous position
 `#x` ::: Delete \# character
@@ -42,6 +42,7 @@
 **Command**|**Usage**
 ----------|------------
 `:ter` ::: Open a terminal / shell inside VIM
+<!--SR:!2024-12-31,2,242!2000-01-01,1,250-->
 `:vertical botright term` ::: Open a terminal vertically at the right side of the window
 `:tabnew` ::: You can open a new tab with the command
 `:tabnew [filename]` ::: You can open a new tab with the command
@@ -49,6 +50,7 @@
 `:qa!<Enter>` ::: Get out of Vim
 <!--SR:!2024-12-31,2,226!2024-12-31,2,245-->
 `:reg<Enter>` ::: Show yank register
+<!--SR:!2000-01-01,1,250!2024-12-30,1,222-->
 `:register<Enter>` ::: Show yank register
 `:cd mydirectory` ::: Set working / current directory in Vim
 
