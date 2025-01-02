@@ -1,17 +1,32 @@
-:[000Index](../000Index.md)
-# VIM info
+[000Index](../000Index.md)
+# VIM Learning note
 #vim
-## Questions to be resolved
-- Search and replace (find space replace to line break) 
-- Can VIM display the image for markdown. (Markdown plugin)
+## Table of Contents
+- [Questions](\#questions)
+- [Introduction](\#introduction)
+- [Modes](\#modes)
+- [Movement](\#movement)
+- [Command](\#command)
+- [Customization](\#customization)
+
+## Questions
+
+## Introduction
+VIM is a powerful text editor with modal functionality, designed for efficient text editing. This document will serve as a personal guide to mastering VIM step by step and future reference.
+## Modes
+- `Esc` ::: Key to access to **Normal Mode**
+- `i` ::: Key to access to **Insert Mode**
+- `v` ::: Key to access to **Visual Mode**
+- `:` ::: Key to access to **Command Mode**
 
 ## Movement
+
 ### Exiting
 - `ZZ` ::: Save and quit
 - `ZQ` ::: Quit without checking changes
 <!--SR:!2000-01-01,1,250!2024-12-31,1,222-->
 ### Misc
-- `Ctrl+W+W`:::Switch between Vim window splits
+- `Ctrl+W+W`:::Switch between Vim window splits 
 <!--SR:!2025-01-06,8,250!2025-01-18,20,250-->
 - `Ctrl + F`::: Page down, moving Forward
 <!--SR:!2025-01-03,5,230!2025-01-05,7,250-->
@@ -35,7 +50,6 @@
 - `Ctrl + r` ::: Redo 
 - `N` ::: backward next; previous next
 <!--SR:!2000-01-01,1,250!2025-01-01,2,242-->
-- `w` ::: move to begin of next word
 - `Ctrl + B` ::: page up, moving Backward
 <!--SR:!2024-12-30,1,210!2025-01-01,3,210-->
 - `gt` ::: To switch between tabs you can use
@@ -68,11 +82,15 @@
 - `J`  ::: Uppercase J will join that line and the next line
 
 ## Command
+### Search & Replace
+- `:s/\s/\r/g` ::: Find space replace with line break
+
+### Misc
 - `:ter` ::: Open a terminal / shell inside VIM
 <!--SR:!2025-01-01,2,242!2025-01-01,2,242-->
 - `:vertical botright term` ::: Open a terminal vertically at the right side of the window
 <!--SR:!2025-01-01,2,242!2024-12-31,1,222-->
-- `:tabnew` ::: You can open a new tab with the command
+- `:tabnew` ::: You can open a new tab with the command. Practice[^1]
 - `:tabnew [filename]` ::: You can open a new tab with the command
 <!--SR:!2000-01-01,1,250!2024-12-31,1,222-->
 - `:q<Enter>` ::: Close this window
@@ -82,7 +100,6 @@
 - `:register<Enter>` ::: Show yank register
 <!--SR:!2024-12-31,1,222!2000-01-01,1,250-->
 - `:cd mydirectory` ::: Set working / current directory in Vim
-**Command**|**Usage**
 - `:ter` ::: Open a terminal / shell inside VIM
 <!--SR:!2024-12-31,2,242!2000-01-01,1,250-->
 - `:vertical botright term` ::: Open a terminal vertically at the right side of the window
@@ -105,3 +122,17 @@
 
 ## Script
 
+
+## Customization
+
+## Flow sample
+```mermaid
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
+## Practice
+[^1]: Open abc.txt in a new tab: `:tabnew abc.txt`
