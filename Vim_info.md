@@ -7,12 +7,17 @@
 - [Modes](\#modes)
 - [Movement](\#movement)
 - [Command](\#command)
+- [Plugin](\#plugin)
+- [Script](\#script)
 - [Customization](\#customization)
+- [Flow sample](\#flow-sample)
+- [Practice](\#practice)
 
 ## Questions
 
 ## Introduction
 VIM is a powerful text editor with modal functionality, designed for efficient text editing. This document will serve as a personal guide to mastering VIM step by step and future reference.
+Reference: [[assets/Vim_info/Vim实用技巧（第2版）.pdf]]
 ## Modes
 - `Esc` ::: Key to access to **Normal Mode**
 - `i` ::: Key to access to **Insert Mode**
@@ -20,6 +25,7 @@ VIM is a powerful text editor with modal functionality, designed for efficient t
 - `:` ::: Key to access to **Command Mode**
 
 ## Movement
+All commands in this section should be press in normal mode.
 
 ### Exiting
 - `ZZ` ::: Save and quit
@@ -50,21 +56,6 @@ VIM is a powerful text editor with modal functionality, designed for efficient t
 - `Ctrl + r` ::: Redo 
 - `N` ::: backward next; previous next
 <!--SR:!2000-01-01,1,250!2025-01-01,2,242-->
-- `Ctrl + B` ::: page up, moving Backward
-<!--SR:!2024-12-30,1,210!2025-01-01,3,210-->
-- `gt` ::: To switch between tabs you can use
-<!--SR:!2025-01-07,9,250!2024-12-31,2,242-->
-- `Ctrl+ ]` ::: Jump to a subject
-- `Ctrl + T / O` ::: Jump back to previous position
-- `#x` ::: Delete \# character
-<!--SR:!2024-12-30,1,225!2000-01-01,1,250-->
-- `#dw` ::: Delete \# word
-- `$`  ::: move to the end of line, INCLUDING the last character.
-- `d$`  ::: delete to the end of the line
-- `de /w` ::: delete word
-- `Ctrl + R` ::: Redo 
-- `Ctrl + r` ::: Redo 
-- `N` ::: backward next; previous next
 - `w` ::: move to begin of next word
 <!--SR:!2024-12-31,2,245!2025-01-03,5,246-->
 - `b` ::: begin of previours word, word begin
@@ -114,18 +105,14 @@ VIM is a powerful text editor with modal functionality, designed for efficient t
 - `:cd mydirectory` ::: Set working / current directory in Vim
 
 
-## Motion
-- `$` | to the end of the line, INCLUDING the last character.
-
 ## Plugin
-
 
 ## Script
 
 
 ## Customization
 
-## Flow sample
+## Flow-sample
 ```mermaid
 flowchart TD
     A[Christmas] -->|Get money| B(Go shopping)
@@ -134,5 +121,8 @@ flowchart TD
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
 ```
+![[assets/Vim_info/image-20250103201126895.png]]
+
+
 ## Practice
 [^1]: Open abc.txt in a new tab: `:tabnew abc.txt`
