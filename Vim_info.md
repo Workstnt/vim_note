@@ -17,7 +17,7 @@
 
 ## Introduction
 VIM is a powerful text editor with modal functionality, designed for efficient text editing. This document will serve as a personal guide to mastering VIM step by step and future reference.
-Reference: [[assets/Vim_info/Vim实用技巧（第2版）.pdf]]
+Reference: [Vim实用技巧](assets/Vim_info/Vim实用技巧（第2版）.pdf)
 ## Modes
 - `Esc` ::: Key to access to **Normal Mode**
 - `i` ::: Key to access to **Insert Mode**
@@ -121,7 +121,7 @@ flowchart TD
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
 ```
-![[assets/Vim_info/image-20250103201126895.png]]
+![Picture](assets/Vim_info/image-20250103201126895.png)
 
 
 ## Practice
